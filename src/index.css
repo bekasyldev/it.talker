@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Main backgrounds */
+  --bg-primary: #E0E9F4;
+  --bg-card: #E0EAF7;
+  --bg-section: #18529D;
+  --bg-small-card: #285EA4;
+  --bg-medium-card: #3064A7;
+
+  --white: #E9F0F7;
+  
+  /* Text colors */
+  --text-primary: #000000;
+  --text-white: #FFFFFF;
+  --text-secondary: #9ABBE6;
+
+  
+  /* Button colors */
+  --button-primary: #006DFC;
+  
+  /* Card backgrounds */
+  --card-light: #FFFFFFCC;
+  
+  /* Gradient */
+  --gradient-blue: linear-gradient(180deg, #9ABBE6 0%, #3075CE 100%);
+}
+
+@layer base {
+  body {
+    @apply bg-white text-[var(--text-primary)];
+    font-family: 'Manrope', sans-serif;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+  
+  .section {
+    @apply py-16;
+  }
+  
+  .button-primary {
+    @apply bg-[var(--button-primary)] text-white px-6 py-3 rounded-lg hover:opacity-90 transition-opacity;
+  }
+  
+  .card {
+    @apply bg-[var(--bg-card)] p-6 rounded-lg shadow-md;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* This helps with fixed header offset */
+}

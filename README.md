@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### Content
 
-## Getting Started
+background: #E0E9F4;
 
-First, run the development server:
+card bg: background: #E0EAF7;
+cad text: background: #000000;
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+price: background: linear-gradient(180deg, #9ABBE6 0%, #3075CE 100%);
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+bg section: background: #18529D;
+bg small card bg: #285EA4
+bg meduim card bg: #3064A7
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+button bg: background: #006DFC;
+small cards bg: background: #FFFFFFCC;
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Header
 
-## Learn More
+Полный курс SA
+nav links = О нас Преимущества Отзывы Контакты
 
-To learn more about Next.js, take a look at the following resources:
+Старший и ведущий SA:
+Теле2
+Альфа банк
+Сбербанк
+Uzum
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# hero
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+maint text: Получи практические знания SA и увеличь свой доход!
+mini-cards: Группы по 15 человек, Только польза без воды, От сбора требований до брокеров сообщений, Работа в back-end реального проекта, Еженедельная real-time практика
 
-## Deploy on Vercel
+form: Запишись на тестовое собеседование!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# cards
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+header: Работа и стажировка
+text: 5 лучших учеников с группы получат рекомендации в российские и казахстанские компании. Студентам помогаем со стажировкой
+
+header: Лучшие преподаватели
+text: Наши лекторы - старшие и ведущие системные аналитики из топовых финтех-компаний России
+
+header: Уникальный формат обучения  
+text: 'В каждой группе всего 15 человек, поэтому каждый ученик получит индивидуальное внимание
+
+header: Максимум практической пользы
+text: Мы создали онлайн-магазин на своей базе данных. И вы будете практиковать SA прямо в ней!
+
+# about us
+
+text:
+it.t Academy выросла из обычного блога про айти: Арсен
+"it talker" просто рассказывал в инстаграме о своем пути в SA.
+
+За пять лет карьера развилась от SA middle в топовом финтехе РФ до позиций ведущего системного аналитика, и этот рост наблюдали подписчики Арсена. Так постепенно сформировалось сплоченное комьюнити SA.
+
+Цель нашей школы - давать ученикам наилучшее образование SA на рынке СНГ. Для этого мы организовали наиболее удобный и эффективный для вас учебный процесс
+
+## card
+
+count: 70+
+text: компаний-партнеров в РФ и Казахстане
+
+count: 2500$
+text: средняя зарплата системного аналитика
+
+# What you learn
+
+Чему вы научитесь
+
+screns
+
+# quetion answers
+
+card 1: Модуль 1: Введение в системный анализ
+text: Знакомство с курсом: цели, структура и ожидаемые результаты.
+Роль системного аналитика в IT-проектах: кто такой системный аналитик и почему его вклад важен для успешной реализации проектов.
+Основные задачи и обязанности: от сбора требований до контроля их реализации.
+Что такое ФТ и НФТ?
+Процесс сбора и анализа требований: методы, подходы и инструменты.
+Этапы работы системного аналитика: от начального анализа до сопровождения решений.- Знакомство с курсом: цели, структура и ожидаемые результаты.
+Роль системного аналитика в IT-проектах: кто такой системный аналитик и почему его вклад важен для успешной реализации проектов.
+Основные задачи и обязанности: от сбора требований до контроля их реализации.
+Что такое ФТ и НФТ?
+Процесс сбора и анализа требований: методы, подходы и инструменты.
+Этапы работы системного аналитика: от начального анализа до сопровождения решений.
+
+Модуль 2: Моделирование с помощью UML
+Модуль 3: Архитектура программных систем
+Модуль 4: Проектирование баз данных
+Модуль 5: Введение в SQL
+Модуль 6: Проектирование API
+Модуль 7: Брокеры сообщений (Kafka/RabbitMQ)  
+Модуль 8: Кэширование
+Модуль 9: Работа с репозиториями
+Модуль 10: Софт-скиллы и воркшопы от экспертов
+
+# reviews
+
+screens
+
+# footer
+
+Политика конфиденциальности
+Публичная оферта
+
+2025 все права защищены
+
+title: Меню
+links: Курсы
+О нас
+Преимущества
+Отзывы
+Контакты
+
+title: Контакты
+links: it.talker
++7 777 777 7777
+
+Разработано студией
