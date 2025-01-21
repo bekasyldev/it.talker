@@ -7,7 +7,6 @@ import LearnOutcomes from './sections/LearnOutcomes';
 import Reviews from './sections/Reviews';
 import PriceSection from './sections/PriceSection';
 import Footer from './sections/Footer';
-import AORM from './components/AORM';
 
 function App() {
   return (
@@ -20,9 +19,7 @@ function App() {
       <Learn />
       <Reviews />
       <PriceSection />
-      <AORM />
       <Footer />
-      {/* Add other sections as they are completed */}
     </div>
   );
 }
