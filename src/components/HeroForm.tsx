@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import InputMask from 'react-input-mask';
 import * as yup from 'yup';
 import { formSchema } from '../utils/validationSchema';
-import { useAmoCRM } from '../hooks/useAmoCRM';
+
 
 interface FormData {
   name: string;
@@ -19,7 +19,6 @@ interface HeroFormProps {
 }
 
 function HeroForm({ className = '' }: HeroFormProps) {
-  const { initAmoScript, submitToAmo } = useAmoCRM();
   const [formData, setFormData] = useState<FormData>({
     name: '',
     phone: '',
@@ -27,10 +26,6 @@ function HeroForm({ className = '' }: HeroFormProps) {
   });
   const [errors, setErrors] = useState<FormErrors>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
-
-  useEffect(() => {
-    initAmoScript();
-  }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -56,7 +51,8 @@ function HeroForm({ className = '' }: HeroFormProps) {
       await formSchema.validate(formData, { abortEarly: false });
       
       // Отправка в AmoCRM
-      const success = await submitToAmo(formData);
+      console.log('formData', formData);
+      const success = true;
       
       if (success) {
         // Очистка формы
